@@ -1,0 +1,202 @@
+Agile - History & Basics (Sharmishtha)
+	Traditional Way of software development (SDLC) and challenges
+	Roots of Agile
+	Agile Values
+	Agile Principles
+	Small Activity simulating agile objectives
+
+
+DevOps - History & Basics -(Vivek)
+	- Where did DevOps come from?
+	- What is not DevOps?
+	- Common Jargons used in DevOps
+	- 3 ways of DevOps
+	
+	
+HANDS-ON
+==============
+Jira - How it works? (Ajit)
+===========================
+
+List of pre-requisites for JIRA for beginners in HSBC-
+
+ - JIRA instance?
+ - Admin access for workflow
+ - User access to JIRA for participants
+ - Create project , epics and user stories linked to codebase - A generic product idea
+
+Flow:
+JIRA basics : an overview
+Start with a demo of end-to-end lifecycle of a user story.
+JIRA Scheme:
+	- Workflows
+		-Show already created workflow and how changes can be done in workflow (demo on admin rights)
+		- Issue Types
+			-Agile Scrum Issue Type Scheme
+				- Issue attributes
+				- Statuses
+				- Resolutions
+				- Priorities
+	- How to create an issue in product backlog in JIRA (agile scheme)?
+		-Create JIRA Software Scrum project
+			- Create team (component or feature team)
+				- Add team members to team who has access to JIRA and access to this project.
+		- Create an Epic
+		- Create 2-3 user stories under Epic in project backlog
+	- How to work with Sprint in JIRA
+		- Create a Sprint
+		- Fill sprint with user stories from backlog - Sprint Planning
+			- Update story(ies) estimation
+			- Team Velocity
+			- How to create sub-task/task in user stories
+			- Assign task, number of hours to tasks under stories
+		- Start Sprint 
+			- Add a sprint goal 
+			- Select start and end date of Sprint			 
+
+		- How to update JIRA daily on sprint progress
+			- Add/edit/remove tasks
+			- Worklog entry
+				- Manage burndown, pending hours in task(s)
+
+		- Kanban board view - how to understand, move items on board in swimlanes.
+		- How to view and read burndown?
+FAQs-
+- How do I task time entry for previous day?
+- What to do with incomplete user stories in a sprint? How to move them back to product backlog or next sprint?
+
+Git (Ajit)
+=================
+
+
+
+CI Using Jenkins
+================
+Merge Vs. Rebase(Vivek)
+ - Show merge and rebase scenarios using https://learngitbranching.js.org/
+ - Where can we favor merge?
+ - Where do we favor rebase?
+ - Participants try to do rebase and merge using some pre-determined branches in the git repo
+ 
+
+ Automated Unit Tests using Junit (Ramesh)
+	Introduction
+	Features
+	Environment setup
+	Plug with Eclipse
+	Annotations
+	Test framewroks
+	Junit classes
+	Execution procedures and tests
+
+ 
+ 
+ Automated Build using Maven (Sharmishtha)
+	Pre-requisites:
+	Windows =>
+	-	Java SE 8/10 installed
+	-	Maven 3 installed : https://maven.apache.org/download.cgi
+	-	Environment variables setup : JAVA_HOME, PATH
+	-	Sample Java project with unit test
+
+	Linux?
+
+	Flow:
+	-	Maven installation
+	-	Verify installation
+	-	Compile project using Maven on command prompt
+	-	Test project using Maven on command prompt
+	-	Package creation using Maven on command prompt
+
+	FAQ:
+	How to add New plugins in the project?
+	How to operate Maven firewall protected environment?
+	Where are the downloaded Maven dependencies stored?
+	How do you deal with downloads without internet connections?
+ 
+ 
+ Automated Static Code Analysis using Sonar (Ramesh)
+	Why Sonar
+	Architecture (optional)
+	Installation and configuration
+	Profile settings
+	Rule settings
+	Demo
+ 
+ 
+ Centralized builds using Jenkins (Vivek)
+ PREREQ:
+ - Jenkins war present
+ - Zip file with all plugins (extract it to .jenkins folder in user home)
+ 
+ FLOW:
+ - Show how to start jenkins from War file
+ - Need a zip of jenkins home folder with all plugins installed
+ - Participants follow
+ - Show them basic configs 
+	- Tool settings -> Maven, Java, etc
+ - Create a basic build with an echo command, run and show logs, explain icons for success, failure, etc
+ - Create a maven build with mvn command
+ - Create a maven build using maven build
+ - Add Junit tests and SONAR execution
+ - Add post build actions
+ - Schedule a build
+ - Create hook triggers
+ - Build monitor view
+ 
+FAQ:
+ - Can Jenkins be used for builds only?
+ - Difference between Jenkins and Hudson
+
+ 
+ Components of Software Business (Vivek)
+ 
+ 
+ Deployment (Vivek)
+ PREREQ:
+ Tomcat Zips
+ 
+ FLOW:
+ - What is deployment?
+ - Deploy to a test environment
+ - Deploy to a prod environment
+ 
+ FAQ:
+ - 
+ 
+ Creating Pipelines (Vivek)
+ PREREQ:
+ Two Tomcat Folders
+ 
+ FLOW:
+ - Sample pipeline with echo command stages
+ - Pipeline Stage View Demo
+ - Pipeline with stages for our project
+ - JenkinsFile in the repository
+ 
+ 
+ FAQ:
+ - 
+ 
+ ===========================================================
+ OPTION - 1 : Containerization
+ ===========================================================
+ Docker (Ramesh)
+ 
+ 
+ 
+ Microservices (Vivek)
+ 
+ 
+ 
+ 
+ ============================================================
+ OPTION - 2: Advanced deployment Strategies (Vivek)
+ ============================================================
+ 
+ 
+ 
+ 
+ 
+ 
+ 
