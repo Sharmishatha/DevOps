@@ -25,6 +25,6 @@ public class TaskTest {
     @Test
     public void testHomePageContent(){
         String response = controller.serveHomePage();
-        assert(response.equals("<h2 class='header'>Welcome to tasklist</h2>"));
+        assert(response.equals("<h2 class='header'>Welcome to tasklist for pipeline demo</h2>"));
     }
 }
